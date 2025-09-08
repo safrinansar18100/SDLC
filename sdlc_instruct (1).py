@@ -9,12 +9,6 @@ Original file is located at
 
 !pip install transformers torch gradio PyPDF2 -q
 
-"""## Local Inference on GPU
-Model page: https://huggingface.co/ibm-granite/granite-3.2-2b-instruct
-
-⚠️ If the generated code snippets do not work, please open an issue on either the [model repo](https://huggingface.co/ibm-granite/granite-3.2-2b-instruct)
-			and/or on [huggingface.js](https://github.com/huggingface/huggingface.js/blob/main/packages/tasks/src/model-libraries-snippets.ts) 🙏
-"""
 
 import gradio as gr
 import torch
